@@ -89,3 +89,18 @@ var finances = [
 
 
 // Array starts from 0
+
+// LAYOUT
+console.log("Financial Analysis");
+
+// Total months
+let sumMonths = finances.length
+console.log("Total Months: ", sumMonths);
+
+
+// P/L Sum
+let 
+
+// Avg Change P/L
+// Greatest inc P
+// Greatest Dec L
