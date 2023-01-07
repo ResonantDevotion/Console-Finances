@@ -2,18 +2,19 @@
 - Create github Repo //
 - Clone repo to computer //
 
-##
+## Do layout
+- Console log Financial analysis //
 
 
 ## total no of months included in dataset
-- Create variable for the total number of months (SumMonths)
-- Calc total no of months from finances array and variable.length
-- Commit and comment reminder
+- Create variable for the total number of months (SumMonths) //
+- Calc total no of months from finances array and variable.length //
+- Commit and comment reminder //
 
 ## net sum of profit/loss combined
-- Create total profit/loss (SumPL) variable
-- Create a for loop that calcs sum of [i][1] of finances variable
-- Add console.log displaying
+- Create total profit/loss (sumPL) variable //
+- Create a for loop that calcs sum of [i][1] of finances variable //
+- Add console.log displaying //
 - Commit and comment reminder
 
 - Create variable for net total+ new total

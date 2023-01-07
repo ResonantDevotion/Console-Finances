@@ -98,9 +98,24 @@ let sumMonths = finances.length
 console.log("Total Months: ", sumMonths);
 
 
-// P/L Sum
-let 
+// net sum of profit/loss combined
+let sumPL = 0
+for (let i = 0; i < finances.length; i++){
+    sumPL = sumPL += finances[i][1];
+}
+console.log(sumPL);
+
+// let sumPL = finances[i][1] + 
+
+
+
+
+
+// finances.forEach()
+
 
 // Avg Change P/L
 // Greatest inc P
 // Greatest Dec L
+
+// finances.forEach( finances[i][1]++)
