@@ -89,3 +89,77 @@ var finances = [
 
 
 // Array starts from 0
+
+// LAYOUT
+console.log("Financial Analysis");
+
+// Total months
+let sumMonths = finances.length
+console.log("Total Months: ", sumMonths);
+
+
+// net sum of profit/loss combined
+let sumPL = 0
+for (let i = 0; i < finances.length; i++){
+    sumPL = sumPL += finances[i][1];
+}
+console.log("Total: $", sumPL);
+
+// Average of the changes in profit/loss over period
+let delta = 0
+
+
+for (let i = 0; i < finances.length; i++){
+    if (i == 0)
+        delta = delta + finances[i][1]; 
+    else
+        delta = delta + (finances[i][1] - finances[i - 1][1]);
+}
+
+delta = delta / sumMonths
+
+delta2 = delta.toFixed(2);
+
+console.log("Average Change: $", delta2);
+
+// Greatest inc P
+let maxDelta = 0
+
+let maxDeltaMonth = ""
+
+for (let i = 0; i < finances.length; i++){
+    let difference = 0
+    if (i == 0)
+        difference = finances[i][1]; 
+    else
+        difference = (finances[i][1] - finances[i - 1][1]);
+
+    if (difference > maxDelta){
+        maxDelta = difference
+        maxDeltaMonth = finances[i][0]
+    }
+}
+
+console.log("Greatest Increase in Profits: ", maxDeltaMonth, maxDelta);
+
+
+
+// Greatest Dec L
+let minDelta = 0
+
+let minDeltaMonth = ""
+
+for (let i = 0; i < finances.length; i++){
+    let change = 0
+    if (i == 0)
+        change = finances[i][1]; 
+    else
+        change = (finances[i][1] - finances[i - 1][1]);
+
+    if (change < minDelta){
+        minDelta = change
+        minDeltaMonth = finances[i][0]
+    }
+}
+
+console.log("Greatest Decrease in Profits: ", minDeltaMonth, minDelta);
