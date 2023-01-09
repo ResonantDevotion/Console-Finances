@@ -140,7 +140,7 @@ for (let i = 0; i < finances.length; i++){
     }
 }
 
-console.log("Greatest Increase in Profits: ", maxDeltaMonth, maxDelta);
+console.log("Greatest Increase in Profits: ", maxDeltaMonth, "($" + maxDelta + ")");
 
 
 
@@ -162,4 +162,4 @@ for (let i = 0; i < finances.length; i++){
     }
 }
 
-console.log("Greatest Decrease in Profits: ", minDeltaMonth, minDelta);
+console.log("Greatest Decrease in Profits: ", minDeltaMonth, "($" + minDelta + ")");
