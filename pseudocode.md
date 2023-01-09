@@ -15,9 +15,8 @@
 - Create total profit/loss (sumPL) variable //
 - Create a for loop that calcs sum of [i][1] of finances variable //
 - Add console.log displaying //
-- Commit and comment reminder
+- Commit and comment reminder//
 
-- Create variable for net total+ new total
 
 ## Average of the changes in profit/loss over period
 - Create profit/loss average (AvgChgPL) variable
@@ -25,6 +24,7 @@
 - Add total to 
 - - potentially make new array from finances array.
 - Do avg calc for new array and input to new variable (AvgChgPL)
+- Add up each months change/difference, combine then divide by total months.
 
 - Add console.log displaying
 - Commit and comment reminder
