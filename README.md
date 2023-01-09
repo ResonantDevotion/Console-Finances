@@ -4,7 +4,7 @@
 
 Used Javascript to financially analyse and summarise a dataset for a fictional company.
 
-This project was a good stretch and practise of using Javascript, as well as problemsolving. We had to research the majority of our solutions, which proved very difficult and I discovered the importance of mentoring! I now have a grasp on multi-dimensional arrays, for/else loops and maths!
+This project was a good stretch and practise of using Javascript, as well as problemsolving. We had to research the majority of our solutions, which proved very difficult and I discovered the importance of mentoring! I also got some experience with pseudocode, althought I still need to practice as I don't quite get it, YET! I now have a grasp on multi-dimensional arrays, for/else loops and maths!
 
 The deployed application can be found here at:
 
